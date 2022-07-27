@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://en.wikipedia.org/wiki/File:Mount_Fuji_from_Mount_Ogochi_2000-10-22.jpg'
+img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Sattatouge_mtfuji.jpg/1280px-Sattatouge_mtfuji.jpg'
 im = imread(img_url)
 
 
