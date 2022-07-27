@@ -8,6 +8,8 @@ from skimage.io import imread
 img_url = 'https://en.wikipedia.org/wiki/File:Mount_Fuji_from_Mount_Ogochi_2000-10-22.jpg'
 im = imread(img_url)
 
+
+
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
 
